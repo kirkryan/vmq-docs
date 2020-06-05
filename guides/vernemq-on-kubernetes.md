@@ -29,6 +29,13 @@ Helm calls itself the package manager for Kubernetes. In Helm a package is calle
 
 Once Helm is properly setup just run the following command in your shell.
 
+Add the VerneMQ Helm charts repository:
+
+```text
+helm repo add vernemq https://vernemq.github.io/docker-vernemq
+```
+then install VerneMQ with:
+
 ```text
 helm install vernemq/vernemq
 ```
